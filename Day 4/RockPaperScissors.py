@@ -30,6 +30,7 @@ scissor = '''
 '''
 
 player = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
+print("Player chose")
 if player == 0:
     print(rock)
 elif player == 1:
@@ -40,6 +41,7 @@ else:
     print("Wrong number")
     
 computer = random.randint(0, 2)
+print("Computer chose")
 if computer == 0:
     print(rock)
     if player == 0:
